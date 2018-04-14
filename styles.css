@@ -2,4 +2,64 @@ body{
 	background-color:#232323;
 	color:lightgray;
 }
-	
+
+.city{
+	display: inline-block;
+	width: 26%;
+	margin: 10px 2.75% 0;
+	padding: 5px;
+}
+
+.bordered{
+	border: 2px solid white;
+}
+
+.city__name{
+	text-align: center;
+}
+
+.city__image{
+	height:200px;
+	width: 90%;
+	margin:0px 5%;
+}
+
+.city__year{
+	text-align: center;
+}
+
+.city__heading{
+	text-align: center;
+}
+
+.city__attractions__list{
+	margin: auto;
+}
+
+.city__attractions__list__item{
+	margin: auto;
+}
+
+.NA{
+	border-color: green;
+}
+
+.SA{
+	border-color: steelblue;
+}
+
+.AS{
+	border-color: purple; 
+}
+
+.AN{
+	border-color: yellow; 
+}
+
+.EU{
+	border-color: orange;
+}
+
+.AU{
+	border-color: brown;
+}
