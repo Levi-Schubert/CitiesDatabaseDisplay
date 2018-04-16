@@ -1,4 +1,5 @@
 const citiesRef = document.querySelector("#cities")
+const fragment = document.createDocumentFragment()
 
 const cityDomBuilder = (year) => {
 
@@ -45,10 +46,12 @@ const cityDomBuilder = (year) => {
 			});
 
 			citySection.appendChild(cityAttractionsList)
-			citiesRef.appendChild(citySection)
+			fragment.appendChild(citySection)
 		}
 
 	});
+
+	citiesRef.appendChild(fragment)
 
 }
 
